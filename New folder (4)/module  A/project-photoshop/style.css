@@ -1,0 +1,120 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:rgb(255, 85, 85);
+}
+
+.main-page{
+    height: 100vh;
+    display: flex;
+}
+
+/* side line */
+
+.side-line{
+    background-color: #bd0606;
+    height: 100%;
+    width: 25px;
+}
+
+/* side-bar */
+
+.side-bar{
+    background-color:rgb(199, 23, 23);
+    height: 100%;
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 25px;
+    box-shadow: 1px 1px 10px rgb(185,185,185);
+
+}
+.circle{
+    height: 50px;
+    width: 50px;
+    background-color: #c7d0d8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin: 10px 90px;
+    
+}
+.circle:hover{
+    background-color: #5d5f61;
+}
+.circle:active{
+    background-color: #37c9ef;
+}
+.blue-circle{
+    background-color: #37c9ef;
+}
+/* Right-panel */
+
+.right-panel{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+
+}
+/* right-panel */
+.header{
+    background-color: #b10505;
+    width: 100%;
+    height: 75px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 1px 1px 10px rgb(185,185,185);
+}
+.logo-container{
+    padding-right: 1px;
+    filter: invert(100%);
+    margin-top: 10px;
+}
+.empty-side{
+    padding-left: 100px;
+}
+h1{
+    font-family: 'Merriweather', serif;
+    color: white;
+    font-size: 2.6rem;
+    letter-spacing: 0.4rem;
+    
+}
+h2{
+    font-size: 2rem;
+    font-family: 'Merriweather', serif;
+    color: white;
+}
+
+/* Tablet Container */
+
+.tablet-container{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 12px;
+    margin-left: 35px;
+    margin-right: 80px;
+    border-radius: 2rem;
+    margin-bottom: 16px;
+    border: 15px solid black;
+}
+#tablet-img{
+    position: absolute;
+    color: aliceblue;
+}
+#main-canvas{
+    position: absolute;
+    z-index: -1;
+}

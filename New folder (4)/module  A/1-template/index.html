@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV Mini Project</title>
+
+    <script async src="../../resources/opencv.js" onload="openCvReady()"></script>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="main-page">
+        <div class="side-line"></div>
+        <div class="side-bar">
+            <div>
+                <h2>Tool Box's</h2>
+            </div>
+            <span class="circle"><i class="material-icons" style="font-size: 35px; color: white;">settings</i></span>
+            <span class="circle"><i class="material-icons" style="font-size: 35px; color: white;">info</i></span>
+            <span class="circle"><i class="material-icons" style="font-size: 35px; color: white;">visibility</i></span>
+            <span class="circle"><i class="material-icons"
+                    style="font-size: 35px; color: white;">auto_fix_normal</i></span>
+            <span class="circle blue-circle"><i class="material-icons"
+                    style="font-size: 35px; color: white;">videocam</i></span>
+
+        </div>
+        <!-- Right Panel -->
+
+        <div class="right-panel">
+            <!-- Header -->
+
+            <div class="header">
+                <div class="empty-side"></div>
+                <h1>CV Mini Project</h1>
+                <div class="logo-container"><img src="../../resources/pngegg.png" alt="" width="90" height="90"
+                        style="color: aliceblue;"></div>
+
+            </div>
+            <!-- Tablet Container -->
+            <div class="tablet-container">
+                <!-- <img id="tablet-image" src="../../resources/border-g42bdc843e_1280.png" width="1050" height="500"
+                    alt=""> -->
+                <canvas id="main-canvas" width="960" height="720">
+                    <img id="img-main" src="../../resources/pic3.jpg" width="999" height="505" alt="">
+                </canvas>
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
